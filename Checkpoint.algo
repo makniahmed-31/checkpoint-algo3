@@ -1,0 +1,36 @@
+PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER )
+VAR
+    v1,v2 := INTEGER ; 
+    ps := INTEGER := 0 ;
+BEGIN
+    ps := v1 * v2;
+     Write(ps)
+END
+ 
+// Quest 2 :
+PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER)
+VAR
+    v1,v2 := INTEGER ; 
+    ps := INTEGER := 0 ;
+BEGIN
+   FOR i FROM 0 TO n STEP 1  DO
+       IF ((v1 * v2) == 0) THEN
+           ps += 1;
+       END_IF
+   END_FOR
+   Write("produit scalair"+ps)
+END
+// Quest 3 
+FUNCTION dot_product() : INTEGER 
+VAR
+   v1 := INTEGER ;
+   v2 := INTEGER ; 
+   ps := INTEGER :=0 ;
+BEGIN
+   FOR i FROM 0 TO n STEP 1 DO
+       IF ((v1 * v2) == 0) THEN
+           ps += 1;
+       END_IF
+   END_FOR
+    RETURN ps ;
+END
