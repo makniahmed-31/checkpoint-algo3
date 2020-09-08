@@ -1,4 +1,5 @@
 PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER )
+//Quest: 1 :
 VAR
     v1,v2 := INTEGER ; 
     ps := INTEGER := 0 ;
@@ -7,7 +8,7 @@ BEGIN
      Write(ps)
 END
  
-// Quest 2 :
+// Quest: 2 :
 PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER)
 VAR
     v1,v2 := INTEGER ; 
@@ -20,7 +21,7 @@ BEGIN
    END_FOR
    Write("produit scalair"+ps)
 END
-// Quest 3 
+// Quest: 3 
 FUNCTION dot_product() : INTEGER 
 VAR
    v1 := INTEGER ;
